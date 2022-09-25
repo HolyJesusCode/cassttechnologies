@@ -1,0 +1,10 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# CodeStream ignored files
+/../../DAN PROJECT\.idea/codestream.xml
+# Datasource local storage ignored files
+/../../../../../../../:\Users\Yeager\Desktop\project history\DAN PROJECT\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
