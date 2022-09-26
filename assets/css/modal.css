@@ -146,6 +146,19 @@
 .modal__wrapper .modal__description{
   margin-bottom: 1.5rem;
 }
+.modal__description{
+  font-weight: 500;
+  color: #8c8c8c;
+  /*color: #a4a3a3;*/
+  font-family: 'Poppins';
+  font-size: 17px;
+}
+.modal__price{
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  font-family: 'Poppins-Medium';
+  font-size: 16px;
+}
 
 .modal__wrapper .modal__button-width{
   width: 90%;

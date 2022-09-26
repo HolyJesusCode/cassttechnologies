@@ -15,7 +15,7 @@ const showModal = (openButton, modalContent) => {
                 imgSrc = product.querySelector('.products__img')?.getAttribute('src') ?? 'assets/images/product-placeholder.png',
                 title = product.querySelector('.products__title')?.textContent ?? 'Default title',
                 price = product.querySelector('.products__price')?.textContent ?? 'Default price',
-                descr = product.querySelector('.products__description')?.textContent ?? 'Default price',
+                descr = product.querySelector('.products__description')?.textContent ?? 'This product without description',
                 ref = product.querySelector('.products__img')?.getAttribute('alt')
             if (!ref) ref = 'https://gpstab.com';
 
@@ -26,7 +26,7 @@ const showModal = (openButton, modalContent) => {
 
                 <h1 class="modal__title">${title}</h1>
                 <p class="modal__description">${descr}</p>
-                <p class="modal__description">${price}</p>
+                <p class="modal__price">${price}</p>
 
                 <a href="${ref}" class="modal__button modal__button-width modal__order">
                     Buy
